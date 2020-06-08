@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Telefonica Regular";
+  src: url("assets/fonts/Telefonica-Regular.woff2") format("woff2"),
+    url("assets/fonts/Telefonica-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Telefonica Light";
+  src: url("assets/fonts/Telefonica-Light.woff2") format("woff2"),
+    url("assets/fonts/Telefonica-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Telefonica Bold";
+  src: url("assets/fonts/Telefonica-Bold.woff2") format("woff2"),
+    url("assets/fonts/Telefonica-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: #313235;
+  font-family: "Telefonica Regular", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: inline-block;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-family: "Telefonica Light";
+  letter-spacing: -0.38px;
+  color: #019bf2;
+}
+
+.header-highlighted {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #019bf2 url("assets/images/background-people-bubble.jpg") center
+    no-repeat;
+}
+
+.header-highlighted__title {
+  max-width: 476px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.03;
+  letter-spacing: -0.41px;
+  font-family: "Telefonica Light";
+  font-weight: 300;
+}
+
+.header-highlighted__paragraph {
+  max-width: 476px;
+  margin: 34px 0;
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: -0.12px;
+  font-family: "Telefonica Light";
+  font-weight: 300;
+}
+
+.body-offers {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: centerÇ;
+}
+
+.body-offers__title {
+  max-width: 520px;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: "Telefonica Light";
+  line-height: 1.5;
+  text-align: center;
+}
+
+.body-offers__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.body-offers__wrapper div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 72px;
+}
+
+.body-offers__wrapper div:last-child {
+  margin-right: 0;
+}
+
+.body-offers__wrapper img {
+  width: 136px;
+  height: 136px;
+  margin-bottom: 24px;
+}
+
+.body-offers__wrapper p {
+  max-width: 168px;
+  font-size: 18px;
+}
+
+.body-video {
+  height: 432px;
+  background-color: #b1e1ff;
+}
+
+.body-instructions {
+  height: 440px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("assets/images/mobiles-and-baggage.jpg") 0 8px no-repeat;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+}
+
+.body-instructions__title {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.14;
+  font-family: "Telefonica Light";
+}
+
+.body-instructions__subtitle {
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  font-family: "Telefonica Light";
+}
+
+.body-instructions__list {
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.body-instructions__list:last-child {
+  margin-bottom: 0;
+}
+
+.button {
+  display: inline-block;
+  width: max-content;
+  padding: 10px 40px;
+  font-size: 16px;
+  color: #019bf2;
+  border: 0;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.image {
+  border-radius: 4px;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: "Telefonica Bold";
+}
