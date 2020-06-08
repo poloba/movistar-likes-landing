@@ -139,11 +139,12 @@ body {
 }
 
 .body-instructions {
-  height: 440px;
-  margin-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 440px;
+  margin-top: 60px;
+  padding-left: 48px;
   background: url("assets/images/mobiles-and-baggage.jpg") 0 8px no-repeat;
   border: 1px solid #dddddd;
   border-radius: 8px;
@@ -165,12 +166,19 @@ body {
 }
 
 .body-instructions__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 24px;
   font-size: 18px;
 }
 
 .body-instructions__list:last-child {
   margin-bottom: 0;
+}
+
+.body-instructions__list img {
+  margin-right: 16px;
 }
 
 .button {
