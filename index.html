@@ -7,10 +7,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=101999683232977"
+      nonce="j8YeLqJ5"
+    ></script>
     <div class="wrapper">
-      <div class="header-logo">Movistar <span class="bold">Likes</span></div>
+      <header class="header-logo">
+        Movistar <span class="bold">Likes</span>
+      </header>
     </div>
-    <div class="header-highlighted">
+    <section class="header-highlighted">
       <div class="wrapper">
         <h1 class="header-highlighted__title">
           Experiencias únicas por ser de Movistar.
@@ -22,9 +32,9 @@
         </p>
         <button class="button bold">¿Te vienes?</button>
       </div>
-    </div>
+    </section>
     <div class="wrapper">
-      <div class="body-offers">
+      <section class="body-offers">
         <h2 class="body-offers__title">
           Consigue vivir momentos irrepetibles. Disfruta de regalos y descuentos
           exclusivos.
@@ -49,9 +59,9 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="body-video">video</div>
-      <div class="body-instructions">
+      </section>
+      <section class="body-video">video</section>
+      <section class="body-instructions">
         <h3 class="body-instructions__title">Te lo ponemos fácil</h3>
         <p class="body-instructions__subtitle">
           Para acceder a Movistar Likes:
@@ -73,32 +83,86 @@
             <span>Apúntate a las promociones que quieras</span>
           </li>
         </ul>
-      </div>
-      <div>
-        <div>
-          <span>Todo el fútbol</span>
-          <p>Entradas, camisetas firmadas, encuentros con jugadores...</p>
+      </section>
+      <section class="body-boxes">
+        <div class="body-boxes__box body-boxes__box--soccer">
+          <span class="text-highlighted bold">Todo el fútbol</span>
+          <p class="body-boxes__box__text">
+            Entradas, camisetas firmadas, encuentros con jugadores...
+          </p>
         </div>
-        <div>
-          <span>Vive la cultura</span>
-          <p>Arte, música, teatro, danza...</p>
+        <div class="body-boxes__box body-boxes__box--culture">
+          <span class="text-highlighted bold">Vive la cultura</span>
+          <p class="body-boxes__box__text">Arte, música, teatro, danza...</p>
         </div>
-        <div>
-          <span>Lo último en ocio</span>
-          <p>Grabaciones, rodajes, entradas, gastro experiencias...</p>
+      </section>
+      <section class="body-boxes">
+        <div class="body-boxes__box body-boxes__box--entertainment">
+          <span class="text-highlighted bold">Lo último en ocio</span>
+          <p class="body-boxes__box__text">
+            Grabaciones, rodajes, entradas, gastro experiencias...
+          </p>
         </div>
-        <div>
-          <span>Más deporte</span>
-          <p>Tenis, baloncesto, ciclismo, esports y mucho más.</p>
+        <div class="body-boxes__box body-boxes__box--sports">
+          <span class="text-highlighted bold">Más deporte</span>
+          <p class="body-boxes__box__text">
+            Tenis, baloncesto, ciclismo, esports y mucho más.
+          </p>
         </div>
-      </div>
-      <div>
-        <p>Puedes encontrarnos en las redes sociales</p>
-        <button>¿Te vienes?</button>
-      </div>
-      <div>
-        footer
-      </div>
+      </section>
+      <section class="body-instructions body-instructions--social">
+        <h3 class="body-instructions__title">
+          Puedes encontrarnos en las redes sociales
+        </h3>
+        <button class="button button--special bold">¿Te vienes?</button>
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/MovistarLikes/"
+          data-tabs="timeline"
+          data-width="258"
+          data-height="360"
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true"
+        >
+          <blockquote
+            cite="https://www.facebook.com/MovistarLikes/"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/MovistarLikes/">Movistar Likes</a>
+          </blockquote>
+        </div>
+      </section>
     </div>
+    <footer class="footer">
+      <div class="footer__social wrapper">
+        <img src="assets/images/icon-movistar-logo.svg" alt="" />
+        <div class="footer__social__icons">
+          <span>Síguenos en las redes:</span>
+          <a href="#"
+            ><img src="assets/images/icon-facebook.png" alt="Facebook icon"
+          /></a>
+          <a href="#"
+            ><img src="assets/images/icon-instagram.png" alt="Instagram icon"
+          /></a>
+          <a href="#"
+            ><img src="assets/images/icon-twitter.png" alt="Twitter icon"
+          /></a>
+          <a href="#"
+            ><img src="assets/images/icon-linkedin.png" alt="Linkedin icon"
+          /></a>
+          <a href="#"
+            ><img src="assets/images/icon-youtube.png" alt="Youtube icon"
+          /></a>
+        </div>
+      </div>
+      <div class="footer__telefonica wrapper">
+        <img
+          src="assets/images/icon-telefonica-logo.png"
+          alt="Telefónica logo"
+        />
+      </div>
+    </footer>
   </body>
 </html>
