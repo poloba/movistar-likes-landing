@@ -152,8 +152,10 @@ body {
 
 .body-instructions--social {
   position: relative;
+  justify-content: flex-start;
   padding: 40px 75% 20px 50px;
   background-image: url("assets/images/empty-mobiles.jpg");
+  overflow: hidden;
 }
 
 .body-instructions__title {
@@ -161,6 +163,10 @@ body {
   font-weight: 300;
   line-height: 1.14;
   font-family: "Telefonica Light";
+}
+
+.body-instructions--social .body-instructions__title {
+  margin-bottom: 32px;
 }
 
 .body-instructions__subtitle {
@@ -288,8 +294,14 @@ body {
   font-family: "Telefonica Bold";
 }
 
-.fb-page {
+.box-facebook {
   position: absolute;
-  right: 452px;
-  top: 87px;
+  right: 453px;
+  top: 88px;
+}
+
+.box-twitter {
+  position: absolute;
+  right: 120px;
+  top: 88px;
 }
