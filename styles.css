@@ -56,6 +56,10 @@ body {
     color: #019bf2;
 }
 
+.header-logo span {
+    padding-left: 5px;
+}
+
 .header-highlighted {
     height: 480px;
     display: flex;
@@ -144,7 +148,7 @@ body {
     height: 440px;
     margin: 60px 0;
     padding-left: 48px;
-    background: url('assets/images/mobiles-and-baggage.jpg') 0 8px no-repeat;
+    background: url('assets/images/mobiles-and-baggage.png') right bottom no-repeat;
     border: 1px solid #dddddd;
     border-radius: 8px;
 }
@@ -315,10 +319,14 @@ body {
     }
     .header-highlighted {
         height: 340px;
-        padding-right: 50px;
+        background-position: -420px top;
     }
     .header-highlighted__title {
         font-size: 28px;
+    }
+    .header-highlighted__title,
+    .header-highlighted__paragraph {
+        max-width: 250px;
     }
     .header-highlighted__paragraph,
     .body-offers__title {
@@ -349,7 +357,10 @@ body {
     }
     .body-instructions {
         margin: 16px 0;
-        padding: 0 24px;
+        padding: 24px;
+        height: 640px;
+        justify-content: flex-start;
+        background-size: 415px;
     }
     .body-boxes {
         flex-direction: column;
