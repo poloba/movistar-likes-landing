@@ -1,177 +1,153 @@
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div id="fb-root"></div>
-    <script
-      async
-      defer
-      crossorigin="anonymous"
-      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=214160445269147"
-      nonce="PyOVXC39"
-    ></script>
-    <div class="wrapper">
-      <header class="header-logo">
-        Movistar <span class="bold">Likes</span>
-      </header>
-    </div>
-    <section class="header-highlighted">
-      <div class="wrapper">
-        <h1 class="header-highlighted__title">
-          Experiencias únicas por ser de Movistar.
-        </h1>
-        <p class="header-highlighted__paragraph">
-          Ahora todas las
-          <span class="bold">experiencias, sorteos y descuentos</span>
-          exclusivos de Movistar Likes están en la app Mi Movistar.
-        </p>
-        <button class="button bold">¿Te vienes?</button>
-      </div>
-    </section>
-    <div class="wrapper">
-      <section class="body-offers">
-        <h2 class="body-offers__title">
-          Consigue vivir momentos irrepetibles. Disfruta de regalos y descuentos
-          exclusivos.
-        </h2>
-        <div class="body-offers__wrapper">
-          <div>
-            <img src="assets/images/people-1.png" alt="" />
-            <p>Encuentra experiencias únicas</p>
-          </div>
-          <div>
-            <img src="assets/images/people-2.png" alt="" />
-            <p>Accede a regalos exclusivos</p>
-          </div>
-          <div>
-            <img src="assets/images/people-3.png" alt="" />
-            <p>Disfruta de eventos VIP</p>
-          </div>
-          <div>
-            <img src="assets/images/people-4.png" alt="" />
-            <p>
-              Descarga cupones con descuentos
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="body-video">video</section>
-      <section class="body-instructions">
-        <h3 class="body-instructions__title">Te lo ponemos fácil</h3>
-        <p class="body-instructions__subtitle">
-          Para acceder a Movistar Likes:
-        </p>
-        <ul>
-          <li class="body-instructions__list">
-            <img src="assets/images/icon-download.png" alt="" />
-            <span>Bájate la app Mi Movistar</span>
-          </li>
-          <li class="body-instructions__list">
-            <img src="assets/images/icon-sign-offers.png" alt="" />
-            <span
-              >Descubre el contenido de Movistar Likes en la sección
-              Explora</span
-            >
-          </li>
-          <li class="body-instructions__list">
-            <img src="assets/images/icon-explore.png" alt="" />
-            <span>Apúntate a las promociones que quieras</span>
-          </li>
-        </ul>
-      </section>
-      <section class="body-boxes">
-        <div class="body-boxes__box body-boxes__box--soccer">
-          <span class="text-highlighted bold">Todo el fútbol</span>
-          <p class="body-boxes__box__text">
-            Entradas, camisetas firmadas, encuentros con jugadores...
-          </p>
-        </div>
-        <div class="body-boxes__box body-boxes__box--culture">
-          <span class="text-highlighted bold">Vive la cultura</span>
-          <p class="body-boxes__box__text">Arte, música, teatro, danza...</p>
-        </div>
-      </section>
-      <section class="body-boxes">
-        <div class="body-boxes__box body-boxes__box--entertainment">
-          <span class="text-highlighted bold">Lo último en ocio</span>
-          <p class="body-boxes__box__text">
-            Grabaciones, rodajes, entradas, gastro experiencias...
-          </p>
-        </div>
-        <div class="body-boxes__box body-boxes__box--sports">
-          <span class="text-highlighted bold">Más deporte</span>
-          <p class="body-boxes__box__text">
-            Tenis, baloncesto, ciclismo, esports y mucho más.
-          </p>
-        </div>
-      </section>
-      <section class="body-instructions body-instructions--social">
-        <h3 class="body-instructions__title">
-          Puedes encontrarnos en las redes sociales
-        </h3>
-        <button class="button button--special bold">¿Te vienes?</button>
-        <div class="box-facebook">
-          <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMovistarLikes%2F&tabs=timeline&width=260&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=214160445269147"
-            width="260"
-            height="350"
-            style="border: none; overflow: hidden;"
-            scrolling="no"
-            frameborder="0"
-            allowTransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-        </div>
-        <div class="box-twitter">
-          <a
-            class="twitter-timeline"
-            data-width="260"
-            data-height="396"
-            data-dnt="true"
-            href="https://twitter.com/movistarlikes?ref_src=twsrc%5Etfw"
-            >Tweets by movistarlikes</a
-          >
-          <script
+    <head>
+        <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script
             async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=214160445269147"
+            nonce="PyOVXC39"
+        ></script>
+        <div class="wrapper">
+            <header class="header-logo">Movistar <span class="bold">Likes</span></header>
         </div>
-      </section>
-    </div>
-    <footer class="footer">
-      <div class="footer__social wrapper">
-        <img src="assets/images/icon-movistar-logo.svg" alt="" />
-        <div class="footer__social__icons">
-          <span>Síguenos en las redes:</span>
-          <a href="https://www.facebook.com/MovistarLikes/"
-            ><img src="assets/images/icon-facebook.png" alt="Facebook icon"
-          /></a>
-          <a href="#"
-            ><img src="assets/images/icon-instagram.png" alt="Instagram icon"
-          /></a>
-          <a href="#"
-            ><img src="assets/images/icon-twitter.png" alt="Twitter icon"
-          /></a>
-          <a href="#"
-            ><img src="assets/images/icon-linkedin.png" alt="Linkedin icon"
-          /></a>
-          <a href="#"
-            ><img src="assets/images/icon-youtube.png" alt="Youtube icon"
-          /></a>
+        <section class="header-highlighted">
+            <div class="wrapper">
+                <h1 class="header-highlighted__title">
+                    Experiencias únicas por ser de Movistar.
+                </h1>
+                <p class="header-highlighted__paragraph">
+                    Ahora todas las
+                    <span class="bold">experiencias, sorteos y descuentos</span>
+                    exclusivos de Movistar Likes están en la app Mi Movistar.
+                </p>
+                <button class="button bold">¿Te vienes?</button>
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="body-offers">
+                <h2 class="body-offers__title">
+                    Consigue vivir momentos irrepetibles. Disfruta de regalos y descuentos exclusivos.
+                </h2>
+                <div class="body-offers__wrapper">
+                    <div>
+                        <img src="assets/images/people-1.png" alt="" />
+                        <p>Encuentra experiencias únicas</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/people-2.png" alt="" />
+                        <p>Accede a regalos exclusivos</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/people-3.png" alt="" />
+                        <p>Disfruta de eventos VIP</p>
+                    </div>
+                    <div>
+                        <img src="assets/images/people-4.png" alt="" />
+                        <p>
+                            Descarga cupones con descuentos
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="body-video">video</section>
+            <section class="body-instructions">
+                <h3 class="body-instructions__title">Te lo ponemos fácil</h3>
+                <p class="body-instructions__subtitle">
+                    Para acceder a Movistar Likes:
+                </p>
+                <ul>
+                    <li class="body-instructions__list">
+                        <img src="assets/images/icon-download.png" alt="" />
+                        <span>Bájate la app Mi Movistar</span>
+                    </li>
+                    <li class="body-instructions__list">
+                        <img src="assets/images/icon-sign-offers.png" alt="" />
+                        <span>Descubre el contenido de Movistar Likes en la sección Explora</span>
+                    </li>
+                    <li class="body-instructions__list">
+                        <img src="assets/images/icon-explore.png" alt="" />
+                        <span>Apúntate a las promociones que quieras</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="body-boxes">
+                <div class="body-boxes__box body-boxes__box--soccer">
+                    <span class="text-highlighted bold">Todo el fútbol</span>
+                    <p class="body-boxes__box__text">
+                        Entradas, camisetas firmadas, encuentros con jugadores...
+                    </p>
+                </div>
+                <div class="body-boxes__box body-boxes__box--culture">
+                    <span class="text-highlighted bold">Vive la cultura</span>
+                    <p class="body-boxes__box__text">Arte, música, teatro, danza...</p>
+                </div>
+            </section>
+            <section class="body-boxes">
+                <div class="body-boxes__box body-boxes__box--entertainment">
+                    <span class="text-highlighted bold">Lo último en ocio</span>
+                    <p class="body-boxes__box__text">
+                        Grabaciones, rodajes, entradas, gastro experiencias...
+                    </p>
+                </div>
+                <div class="body-boxes__box body-boxes__box--sports">
+                    <span class="text-highlighted bold">Más deporte</span>
+                    <p class="body-boxes__box__text">
+                        Tenis, baloncesto, ciclismo, esports y mucho más.
+                    </p>
+                </div>
+            </section>
+            <section class="body-instructions body-instructions--social">
+                <h3 class="body-instructions__title">
+                    Puedes encontrarnos en las redes sociales
+                </h3>
+                <button class="button button--special bold">¿Te vienes?</button>
+                <div class="box-facebook">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMovistarLikes%2F&tabs=timeline&width=260&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=214160445269147"
+                        width="260"
+                        height="350"
+                        style="border: none; overflow: hidden;"
+                        scrolling="no"
+                        frameborder="0"
+                        allowTransparency="true"
+                        allow="encrypted-media"
+                    ></iframe>
+                </div>
+                <div class="box-twitter">
+                    <a
+                        class="twitter-timeline"
+                        data-width="260"
+                        data-height="396"
+                        data-dnt="true"
+                        href="https://twitter.com/movistarlikes?ref_src=twsrc%5Etfw"
+                        >Tweets by movistarlikes</a
+                    >
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </section>
         </div>
-      </div>
-      <div class="footer__telefonica wrapper">
-        <img
-          src="assets/images/icon-telefonica-logo.png"
-          alt="Telefónica logo"
-        />
-      </div>
-    </footer>
-  </body>
+        <footer class="footer">
+            <div class="footer__social wrapper">
+                <img src="assets/images/icon-movistar-logo.svg" alt="" />
+                <div class="footer__social__icons">
+                    <span>Síguenos en las redes:</span>
+                    <a href="https://www.facebook.com/MovistarLikes/"
+                        ><img src="assets/images/icon-facebook.png" alt="Facebook icon"
+                    /></a>
+                    <a href="#"><img src="assets/images/icon-instagram.png" alt="Instagram icon" /></a>
+                    <a href="#"><img src="assets/images/icon-twitter.png" alt="Twitter icon" /></a>
+                    <a href="#"><img src="assets/images/icon-linkedin.png" alt="Linkedin icon" /></a>
+                    <a href="#"><img src="assets/images/icon-youtube.png" alt="Youtube icon" /></a>
+                </div>
+            </div>
+            <div class="footer__telefonica wrapper">
+                <img src="assets/images/icon-telefonica-logo.png" alt="Telefónica logo" />
+            </div>
+        </footer>
+    </body>
 </html>

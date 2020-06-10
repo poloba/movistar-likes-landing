@@ -1,307 +1,385 @@
 @font-face {
-  font-family: "Telefonica Regular";
-  src: url("assets/fonts/Telefonica-Regular.woff2") format("woff2"),
-    url("assets/fonts/Telefonica-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Telefonica Regular';
+    src: url('assets/fonts/Telefonica-Regular.woff2') format('woff2'),
+        url('assets/fonts/Telefonica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
-  font-family: "Telefonica Light";
-  src: url("assets/fonts/Telefonica-Light.woff2") format("woff2"),
-    url("assets/fonts/Telefonica-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Telefonica Light';
+    src: url('assets/fonts/Telefonica-Light.woff2') format('woff2'),
+        url('assets/fonts/Telefonica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Telefonica Bold";
-  src: url("assets/fonts/Telefonica-Bold.woff2") format("woff2"),
-    url("assets/fonts/Telefonica-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Telefonica Bold';
+    src: url('assets/fonts/Telefonica-Bold.woff2') format('woff2'),
+        url('assets/fonts/Telefonica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background: #fff;
-  color: #313235;
-  font-family: "Telefonica Regular", Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #fff;
+    color: #313235;
+    font-family: 'Telefonica Regular', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 1224px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
 }
 
 .header-logo {
-  display: inline-block;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  font-size: 36px;
-  font-family: "Telefonica Light";
-  letter-spacing: -0.38px;
-  color: #019bf2;
+    display: inline-block;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-family: 'Telefonica Light';
+    letter-spacing: -0.38px;
+    color: #019bf2;
 }
 
 .header-highlighted {
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: #019bf2 url("assets/images/background-people-bubble.jpg") center
-    no-repeat;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #019bf2 url('assets/images/background-people-bubble.jpg') center no-repeat;
 }
 
 .header-highlighted__title {
-  max-width: 476px;
-  color: #fff;
-  font-size: 60px;
-  line-height: 1.03;
-  letter-spacing: -0.41px;
-  font-family: "Telefonica Light";
-  font-weight: 300;
+    max-width: 476px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.03;
+    letter-spacing: -0.41px;
+    font-family: 'Telefonica Light';
+    font-weight: 300;
 }
 
 .header-highlighted__paragraph {
-  max-width: 476px;
-  margin: 34px 0;
-  color: #fff;
-  font-size: 24px;
-  line-height: 1.33;
-  letter-spacing: -0.12px;
-  font-family: "Telefonica Light";
-  font-weight: 300;
+    max-width: 476px;
+    margin: 34px 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: -0.12px;
+    font-family: 'Telefonica Light';
+    font-weight: 300;
 }
 
 .body-offers {
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: centerÇ;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .body-offers__title {
-  max-width: 520px;
-  font-size: 28px;
-  font-weight: 300;
-  font-family: "Telefonica Light";
-  line-height: 1.5;
-  text-align: center;
+    max-width: 520px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Telefonica Light';
+    line-height: 1.5;
+    text-align: center;
 }
 
 .body-offers__wrapper {
-  display: flex;
-  flex-direction: row;
-  margin-top: 60px;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    text-align: center;
 }
 
 .body-offers__wrapper div {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 72px;
 }
 
 .body-offers__wrapper div:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .body-offers__wrapper img {
-  width: 136px;
-  height: 136px;
-  margin-bottom: 24px;
+    width: 136px;
+    height: 136px;
+    margin-bottom: 24px;
 }
 
 .body-offers__wrapper p {
-  max-width: 168px;
-  font-size: 18px;
+    max-width: 168px;
+    font-size: 18px;
 }
 
 .body-video {
-  height: 432px;
-  background-color: #b1e1ff;
+    height: 432px;
+    background-color: #b1e1ff;
 }
 
 .body-instructions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 440px;
-  margin: 60px 0;
-  padding-left: 48px;
-  background: url("assets/images/mobiles-and-baggage.jpg") 0 8px no-repeat;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 440px;
+    margin: 60px 0;
+    padding-left: 48px;
+    background: url('assets/images/mobiles-and-baggage.jpg') 0 8px no-repeat;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
 }
 
 .body-instructions--social {
-  position: relative;
-  justify-content: flex-start;
-  padding: 40px 75% 20px 50px;
-  background-image: url("assets/images/empty-mobiles.jpg");
-  overflow: hidden;
+    position: relative;
+    justify-content: flex-start;
+    padding: 40px 75% 20px 50px;
+    background-image: url('assets/images/empty-mobiles.jpg');
+    overflow: hidden;
 }
 
 .body-instructions__title {
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 1.14;
-  font-family: "Telefonica Light";
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.14;
+    font-family: 'Telefonica Light';
 }
 
 .body-instructions--social .body-instructions__title {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .body-instructions__subtitle {
-  padding: 30px 0;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.4;
-  font-family: "Telefonica Light";
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: 'Telefonica Light';
 }
 
 .body-instructions__list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 24px;
-  font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 18px;
 }
 
 .body-instructions__list:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .body-instructions__list img {
-  margin-right: 16px;
+    margin-right: 16px;
 }
 
 .body-boxes {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
 }
 
 .body-boxes__box {
-  display: flex;
-  flex-direction: column;
-  width: 49%;
-  height: 432px;
-  padding: 48px;
-  font-size: 40px;
-  font-weight: 300;
-  font-family: "Telefonica Light";
-  color: #fff;
-  border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 432px;
+    padding: 48px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Telefonica Light';
+    color: #fff;
+    border-radius: 8px;
 }
 
 .body-boxes__box--soccer {
-  background: url("assets/images/box-soccer.png") center no-repeat;
+    background: url('assets/images/box-soccer.png') center no-repeat;
 }
 .body-boxes__box--culture {
-  background: url("assets/images/box-culture.png") center no-repeat;
+    background: url('assets/images/box-culture.png') center no-repeat;
 }
 .body-boxes__box--entertainment {
-  background: url("assets/images/box-entertainment.png") center no-repeat;
+    background: url('assets/images/box-entertainment.png') center no-repeat;
 }
 .body-boxes__box--sports {
-  background: url("assets/images/box-sports.png") center no-repeat;
+    background: url('assets/images/box-sports.png') center no-repeat;
 }
 
 .body-boxes__box__text {
-  max-width: 326px;
-  margin-top: 16px;
+    max-width: 326px;
+    margin-top: 16px;
 }
 
 .footer {
-  height: 200px;
-  width: 100%;
-  margin: 0 auto;
-  border-top: 1px solid #eee;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #eee;
 }
 
 .footer__social {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 104px;
-  padding-top: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 104px;
+    padding-top: 16px;
 }
 
 .footer__social__icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .footer__social__icons img {
-  margin: 0 8px;
+    margin: 0 8px;
 }
 
 .footer__telefonica {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  height: 72px;
-  padding-top: 24px;
-  border-top: 1px solid #eee;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 72px;
+    padding-top: 24px;
+    border-top: 1px solid #eee;
 }
 
 .button {
-  display: inline-block;
-  width: max-content;
-  padding: 10px 40px;
-  font-size: 16px;
-  color: #019bf2;
-  border: 0;
-  border-radius: 4px;
-  background-color: #ffffff;
+    display: inline-block;
+    width: max-content;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: #019bf2;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
 .button--special {
-  color: #fff;
-  background-color: #5cb615;
+    color: #fff;
+    background-color: #5cb615;
 }
 
 .image {
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 .text-highlighted {
-  text-transform: uppercase;
-  font-size: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .bold {
-  font-weight: bold;
-  font-family: "Telefonica Bold";
+    font-weight: bold;
+    font-family: 'Telefonica Bold';
 }
 
 .box-facebook {
-  position: absolute;
-  right: 453px;
-  top: 88px;
+    position: absolute;
+    right: 453px;
+    top: 88px;
 }
 
 .box-twitter {
-  position: absolute;
-  right: 120px;
-  top: 88px;
+    position: absolute;
+    right: 120px;
+    top: 88px;
+}
+
+@media (max-width: 1224px) {
+    .wrapper {
+        padding: 0 24px;
+    }
+    .header-logo {
+        height: 56px;
+        font-size: 20px;
+    }
+    .header-highlighted {
+        height: 340px;
+        padding-right: 50px;
+    }
+    .header-highlighted__title {
+        font-size: 28px;
+    }
+    .header-highlighted__paragraph,
+    .body-offers__title {
+        font-size: 20px;
+    }
+    .body-offers {
+        height: auto;
+    }
+    .body-offers__title {
+        margin: 32px 0;
+    }
+    .body-offers__wrapper {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .body-offers__wrapper div {
+        margin-right: 0;
+    }
+    .body-offers__wrapper p {
+        margin: 16px 0;
+    }
+    .body-offers__wrapper img {
+        margin-bottom: 0;
+        margin-top: 16px;
+    }
+    .body-video {
+        height: 166px;
+    }
+    .body-instructions {
+        margin: 16px 0;
+        padding: 0 24px;
+    }
+    .body-boxes {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .body-boxes__box {
+        width: 100%;
+        height: 292px;
+        margin-bottom: 16px;
+        padding: 24px;
+        font-size: 24px;
+        background-size: cover;
+    }
+    .body-instructions--social {
+        display: none;
+    }
+    .footer {
+        margin-top: 40px;
+    }
+    .footer__social {
+        margin-top: 24px;
+    }
+    .footer__social {
+        flex-direction: column;
+    }
+    .footer__telefonica {
+        align-items: center;
+        justify-content: flex-start;
+        margin: 24px 24px 38px;
+        padding: 0;
+        width: auto;
+    }
 }
