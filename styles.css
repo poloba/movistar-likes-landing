@@ -284,9 +284,19 @@ body {
     background-color: #ffffff;
 }
 
+.button:hover {
+    color: #019bf2;
+    background-color: #66c3f7;
+}
+
 .button--special {
     color: #fff;
     background-color: #5cb615;
+}
+
+.button--special:hover {
+    color: #fff;
+    background-color: #499110;
 }
 
 .image {
