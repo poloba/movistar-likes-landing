@@ -1,7 +1,8 @@
 <html>
     <head>
-        <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+        <link rel="stylesheet" href="reset.min.css" />
         <link rel="stylesheet" href="styles.css" />
+        <script src="micromodal.min.js"></script>
         <title>Movistar Likes</title>
     </head>
     <body>
@@ -26,7 +27,40 @@
                     <span class="bold">experiencias, sorteos y descuentos</span>
                     exclusivos de Movistar Likes están en la app Mi Movistar.
                 </p>
-                <button class="button bold">¿Te vienes?</button>
+                <button type="button" class="button bold" data-micromodal-trigger="modal-1">
+                    ¿Te vienes?
+                </button>
+
+                <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+                    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+                        <div
+                            class="modal__container"
+                            role="dialog"
+                            aria-modal="true"
+                            aria-labelledby="modal-1-title"
+                        >
+                            <header class="modal__header">
+                                <h2 class="modal__title" id="modal-1-title">
+                                    Descarga la app Mi Movistar
+                                </h2>
+                                <button
+                                    class="modal__close"
+                                    aria-label="Close modal"
+                                    data-micromodal-close
+                                ></button>
+                            </header>
+                            <main class="modal__content" id="modal-1-content">
+                                <p>Escanea el código QR</p>
+                                <img alt="QR" src="assets/images/qr-code.png" width="300" height="300" />
+                            </main>
+                            <footer class="modal__footer">
+                                <button class="modal__btn" data-micromodal-close aria-label="Cerrar ventana">
+                                    Cerrar
+                                </button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="wrapper">
@@ -55,7 +89,7 @@
                     </div>
                 </div>
             </section>
-            <section class="body-video">video</section>
+            <section class="body-video"></section>
             <section class="body-instructions">
                 <h3 class="body-instructions__title">Te lo ponemos fácil</h3>
                 <p class="body-instructions__subtitle">
@@ -106,7 +140,7 @@
                 <h3 class="body-instructions__title">
                     Puedes encontrarnos en las redes sociales
                 </h3>
-                <button class="button button--special bold">¿Te vienes?</button>
+                <button class="button button--special bold" data-micromodal-trigger="modal-2">¿Te vienes?</button>
                 <div class="box-facebook">
                     <iframe
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMovistarLikes%2F&tabs=timeline&width=260&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=214160445269147"
@@ -130,6 +164,37 @@
                     >
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
+                <div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+                    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+                        <div
+                            class="modal__container"
+                            role="dialog"
+                            aria-modal="true"
+                            aria-labelledby="modal-1-title"
+                        >
+                            <header class="modal__header">
+                                <h2 class="modal__title" id="modal-1-title">
+                                    Descarga la app Mi Movistar
+                                </h2>
+                                <button
+                                    class="modal__close"
+                                    aria-label="Close modal"
+                                    data-micromodal-close
+                                ></button>
+                            </header>
+                            <main class="modal__content" id="modal-1-content">
+                                <p>Escanea el código QR</p>
+                                <img alt="QR" src="assets/images/qr-code.png" width="300" height="300" />
+                            </main>
+                            <footer class="modal__footer">
+                                <button class="modal__btn" data-micromodal-close aria-label="Cerrar ventana">
+                                    Cerrar
+                                </button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </section>
         </div>
         <footer class="footer">
@@ -150,5 +215,8 @@
                 <img src="assets/images/icon-telefonica-logo.png" alt="Telefónica logo" />
             </div>
         </footer>
+        <script>
+            MicroModal.init();
+        </script>
     </body>
 </html>
