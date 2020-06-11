@@ -422,8 +422,8 @@ body {
 
 .modal__container {
     background-color: #fff;
-    padding: 30px;
-    max-width: 500px;
+    padding: 40px 40px 60px;
+    min-width: 800px;
     max-height: 100vh;
     border-radius: 4px;
     overflow-y: auto;
@@ -436,11 +436,29 @@ body {
     align-items: center;
 }
 
+.modal__header__logo {
+    font-size: 24px;
+    height: auto;
+}
+
 .modal__title {
-    font-weight: 600;
-    font-size: 20px;
+    max-width: 580px;
+    font-weight: 300;
+    font-size: 40px;
     line-height: 1.25;
-    color: #019bf2;
+    font-family: 'Telefonica Light';
+}
+
+.modal__paragraph {
+    max-width: 350px;
+    margin: 24px 0 40px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Telefonica Light';
+}
+
+.modal__image {
+    margin: 0 auto;
 }
 
 .modal__close {
@@ -456,24 +474,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 16px;
     line-height: 1.5;
-    color: rgba(0, 0, 0, 0.8);
 }
 
 .modal__content p {
     padding-bottom: 16px;
-}
-
-.modal__btn {
-    font-size: 14px;
-    padding: 8px 24px;
-    background-color: #e6e6e6;
-    border-radius: 4px;
-    border-style: none;
-    border-width: 0;
-    cursor: pointer;
 }
 
 @keyframes mmfadeIn {

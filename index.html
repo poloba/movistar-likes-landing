@@ -40,9 +40,7 @@
                             aria-labelledby="modal-1-title"
                         >
                             <header class="modal__header">
-                                <h2 class="modal__title" id="modal-1-title">
-                                    Descarga la app Mi Movistar
-                                </h2>
+                                <div class="modal__header__logo header-logo">Movistar <span class="bold">Likes</span></div>
                                 <button
                                     class="modal__close"
                                     aria-label="Close modal"
@@ -50,14 +48,10 @@
                                 ></button>
                             </header>
                             <main class="modal__content" id="modal-1-content">
-                                <p>Escanea el código QR</p>
-                                <img alt="QR" src="assets/images/qr-code.png" width="300" height="300" />
+                                <h2 class="modal__title" id="modal-1-title">Accede a experiencias únicas y exclusivas en la app Mi Movistar</h2>
+                                <p class="modal__paragraph">Escanea este código QR y podrás descargar la app de Mi Movistar y acceder a toda la experiencia de Movistar Likes.</p>
+                                <img class="modal__image" alt="QR" src="assets/images/qr-code.png" width="250" height="250" />
                             </main>
-                            <footer class="modal__footer">
-                                <button class="modal__btn" data-micromodal-close aria-label="Cerrar ventana">
-                                    Cerrar
-                                </button>
-                            </footer>
                         </div>
                     </div>
                 </div>
@@ -170,27 +164,21 @@
                             class="modal__container"
                             role="dialog"
                             aria-modal="true"
-                            aria-labelledby="modal-1-title"
+                            aria-labelledby="modal-2-title"
                         >
                             <header class="modal__header">
-                                <h2 class="modal__title" id="modal-1-title">
-                                    Descarga la app Mi Movistar
-                                </h2>
+                                <div class="modal__header__logo header-logo">Movistar <span class="bold">Likes</span></div>
                                 <button
                                     class="modal__close"
                                     aria-label="Close modal"
                                     data-micromodal-close
                                 ></button>
                             </header>
-                            <main class="modal__content" id="modal-1-content">
-                                <p>Escanea el código QR</p>
-                                <img alt="QR" src="assets/images/qr-code.png" width="300" height="300" />
+                            <main class="modal__content" id="modal-2-content">
+                                <h2 class="modal__title" id="modal-2-title">Accede a experiencias únicas y exclusivas en la app Mi Movistar</h2>
+                                <p class="modal__paragraph">Escanea este código QR y podrás descargar la app de Mi Movistar y acceder a toda la experiencia de Movistar Likes.</p>
+                                <img class="modal__image" alt="QR" src="assets/images/qr-code.png" width="250" height="250" />
                             </main>
-                            <footer class="modal__footer">
-                                <button class="modal__btn" data-micromodal-close aria-label="Cerrar ventana">
-                                    Cerrar
-                                </button>
-                            </footer>
                         </div>
                     </div>
                 </div>
@@ -202,13 +190,12 @@
                 <img src="assets/images/icon-movistar-logo.svg" alt="" />
                 <div class="footer__social__icons">
                     <span>Síguenos en las redes:</span>
-                    <a href="https://www.facebook.com/MovistarLikes/"
+                    <a target="blank" href="https://www.facebook.com/MovistarLikes/"
                         ><img src="assets/images/icon-facebook.png" alt="Facebook icon"
                     /></a>
-                    <a href="#"><img src="assets/images/icon-instagram.png" alt="Instagram icon" /></a>
-                    <a href="#"><img src="assets/images/icon-twitter.png" alt="Twitter icon" /></a>
-                    <a href="#"><img src="assets/images/icon-linkedin.png" alt="Linkedin icon" /></a>
-                    <a href="#"><img src="assets/images/icon-youtube.png" alt="Youtube icon" /></a>
+                    <a target="blank" href="https://www.instagram.com/movistar_likes/"><img src="assets/images/icon-instagram.png" alt="Instagram icon" /></a>
+                    <a target="blank" href="https://twitter.com/movistarlikes"><img src="assets/images/icon-twitter.png" alt="Twitter icon" /></a>
+                    <a target="blank" href="https://www.youtube.com/movistarlikes"><img src="assets/images/icon-youtube.png" alt="Youtube icon" /></a>
                 </div>
             </div>
             <div class="footer__telefonica wrapper">
@@ -216,7 +203,9 @@
             </div>
         </footer>
         <script>
-            MicroModal.init();
+            MicroModal.init({
+                disableScroll: true
+            });
         </script>
     </body>
 </html>
