@@ -278,15 +278,17 @@ body {
     width: max-content;
     padding: 10px 40px;
     font-size: 16px;
-    color: #019bf2;
+    color: #019bf4;
     border: 0;
     border-radius: 4px;
     background-color: #ffffff;
+    transition: background-color 0.3s cubic-bezier(0.77, 0, 0.175, 1),
+        color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .button:hover {
-    color: #019bf2;
-    background-color: #66c3f7;
+    color: #019bf4;
+    background-color: #e5f6fb;
 }
 
 .button--special {
