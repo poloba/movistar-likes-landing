@@ -284,6 +284,7 @@ body {
     background-color: #ffffff;
     transition: background-color 0.3s cubic-bezier(0.77, 0, 0.175, 1),
         color 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    text-decoration: none;
 }
 
 .button:hover {
@@ -299,6 +300,10 @@ body {
 .button--special:hover {
     color: #fff;
     background-color: #499110;
+}
+
+.button--mobile {
+    display: none;
 }
 
 .image {
@@ -330,6 +335,12 @@ body {
 @media (max-width: 1224px) {
     .wrapper {
         padding: 0 24px;
+    }
+    .button--desktop {
+        display: none;
+    }
+    .button--mobile {
+        display: inline-block;
     }
     .header-logo {
         height: 56px;
